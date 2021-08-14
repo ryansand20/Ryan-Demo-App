@@ -1,0 +1,12 @@
+#layout-body {
+  display: flex;
+  background-color: green;
+
+  #layout-sidenav {
+    background-color: red;
+  }
+
+  #layout-content {
+    flex-grow: 1;
+  }
+}

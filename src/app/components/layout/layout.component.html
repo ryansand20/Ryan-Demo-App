@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  Camera Assigner
+</mat-toolbar>
+
+<mat-drawer-container id="layout-body">
+  <mat-drawer #drawer id="layout-sidenav" mode="side" [opened]="false">
+    <span>test</span>
+  </mat-drawer>
+
+  <div id="layout-content">
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>
